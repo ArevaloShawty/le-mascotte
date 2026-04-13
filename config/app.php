@@ -2,7 +2,7 @@
 // config/app.php - Configuración general de la aplicación
 
 define('APP_NAME', 'Le Mascotte');
-define('APP_URL', 'http://localhost/le-mascotte');
+define('APP_URL', 'https://arevaloshawty.github.io/le-mascotte/');
 define('APP_VERSION', '1.0.0');
 define('APP_DEBUG', true);
 
