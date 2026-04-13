@@ -4,7 +4,7 @@
 define('APP_NAME', 'Le Mascotte');
 define('APP_URL', 'https://arevaloshawty.github.io/le-mascotte/');
 define('APP_VERSION', '1.0.0');
-define('APP_DEBUG', true);
+define('APP_DEBUG', False);
 
 // Rutas del proyecto
 define('ROOT_PATH', dirname(__DIR__));
