@@ -2,9 +2,9 @@
 // config/app.php - Configuración general de la aplicación
 
 define('APP_NAME', 'Le Mascotte');
-define('APP_URL', 'https://arevaloshawty.github.io/le-mascotte/');
+define('APP_URL', 'http://localhost/le-mascotte/public');
 define('APP_VERSION', '1.0.0');
-define('APP_DEBUG', False);
+define('APP_DEBUG', true);
 
 // Rutas del proyecto
 define('ROOT_PATH', dirname(__DIR__));
@@ -48,8 +48,7 @@ function formatPrice(float $price): string {
 }
 
 function asset(string $path): string {
-    // Los assets siguen en la carpeta public, así que añadimos el prefijo
-    return APP_URL . '/public/' . ltrim($path, '/');
+    return APP_URL . '/assets/' . ltrim($path, '/');
 }
 
 function jsonResponse(array $data, int $status = 200): void {

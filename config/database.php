@@ -1,10 +1,10 @@
 <?php
 // config/database.php - Configuración de la base de datos
 
-define('DB_HOST', 'bi1paa3tubj2oa2ag66c-mysql.services.clever-cloud.com');
-define('DB_USER', 'utypxj4ejmbmfsot');
-define('DB_PASS', 'clQQLjNoHOHEfnKNLH93');
-define('DB_NAME', 'bi1paa3tubj2oa2ag66c');
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'le_mascotte');
 define('DB_PORT', '3306');
 define('DB_CHARSET', 'utf8mb4');
 
